@@ -224,6 +224,10 @@ def file_changed full_path
     handle full_path
   end
 
+  if full_path =~ /.*.\.vb$/
+    handle full_path
+  end
+
   if full_path =~ /(.*.cshtml)|(.*.js)|(.*.css)$/
     handle_webfile full_path
   end

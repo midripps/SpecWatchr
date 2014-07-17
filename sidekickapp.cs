@@ -14,6 +14,7 @@ namespace SyncDeploy
 		    static string[] fileExtensionsWhiteList = new string[]
         {
           ".cs",
+          ".vb",
           ".coffee",
           ".rb",
           ".html",
